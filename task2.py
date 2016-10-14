@@ -48,6 +48,8 @@ metadata2=MetaData()
 reflect = Table('user', metadata2, autoload=True, autoload_with=e)
 inspector = inspect(e)
 columns=inspector.get_columns('network')
+for column in columns:
+    print(column)
 
 results = []
 table_names=inspector.get_table_names()
