@@ -1,0 +1,16 @@
+D:\Python34\python.exe D:/web-programming/zzzeek-pycon2013_student_package-a5b84d0659cb/task4.py
+[(1, 'net1'), (2, 'net2'), (3, 'net1'), (4, 'net2'), (5, 'net1'), (6, 'net2'), (7, 'net1'), (8, 'net2'), (9, 'net1'), (10, 'net2'), (11, 'net1'), (12, 'net2'), (13, 'net1'), (14, 'net2'), (15, 'net1'), (16, 'net2'), (17, 'net1'), (18, 'net2'), (19, 'net1'), (20, 'net2'), (21, 'net1'), (22, 'net2'), (23, 'net1'), (24, 'net2'), (25, 'net1'), (26, 'net2'), (27, 'net1'), (28, 'net2'), (29, 'net1'), (30, 'net2'), (31, 'net1'), (32, 'net2'), (33, 'net1'), (34, 'net2'), (35, 'net1'), (36, 'net2'), (37, 'net1'), (38, 'net2'), (39, 'net1'), (40, 'net2'), (41, 'net1'), (42, 'net2'), (43, 'net1'), (44, 'net2'), (45, 'net1'), (46, 'net2'), (47, 'net1'), (48, 'net2'), (49, 'net1'), (50, 'net2'), (51, 'net1'), (52, 'net2'), (53, 'net1'), (54, 'net2'), (55, 'net1'), (56, 'net2'), (57, 'net1'), (58, 'net2'), (59, 'net1'), (60, 'net2'), (61, 'net1'), (62, 'net2'), (63, 'net1'), (64, 'net2'), (65, 'net1'), (66, 'net2'), (67, 'net1'), (68, 'net2'), (69, 'net1'), (70, 'net2'), (71, 'net1'), (72, 'net2'), (73, 'net1'), (74, 'net2'), (75, 'net1'), (76, 'net2'), (77, 'net1'), (78, 'net2'), (79, 'net1'), (80, 'net2'), (81, 'net1'), (82, 'net2'), (83, 'net1'), (84, 'net2'), (85, 'net1'), (86, 'net2'), (87, 'net1'), (88, 'net2'), (89, 'net1'), (90, 'net2')]
+SELECT "user".fullname AS user_fullname 
+FROM "user" ORDER BY "user".fullname
+SELECT "user".fullname AS user_fullname 
+FROM "user" 
+WHERE "user".name IN (:name_1, :name_2) ORDER BY "user".fullname
+SELECT "user".name AS user_name, address.email_address AS address_email_address 
+FROM "user" JOIN address ON "user".id = address.user_id 
+WHERE address.email_address IN (:email_address_1)
+Account owner: Jack Jones	Account balance: 5000.0000000000	Spent money: 0
+Account owner: Ed Rendell	Account balance: 10000.0000000000	Spent money: 0
+Account owner: Jack Jones	Account balance: 5000	Spent money: 5000
+Account owner: Ed Rendell	Account balance: 10000	Spent money: 10000
+
+Process finished with exit code 0
