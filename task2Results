@@ -1,0 +1,9 @@
+D:\Python34\python.exe D:/web-programming/zzzeek-pycon2013_student_package-a5b84d0659cb/homework/task2.py
+{'primary_key': 1, 'nullable': False, 'default': None, 'name': 'network_id', 'type': INTEGER(), 'autoincrement': True}
+{'primary_key': 0, 'nullable': False, 'default': None, 'name': 'name', 'type': VARCHAR(length=100), 'autoincrement': True}
+{'primary_key': 0, 'nullable': False, 'default': None, 'name': 'created_at', 'type': DATETIME(), 'autoincrement': True}
+{'primary_key': 0, 'nullable': True, 'default': None, 'name': 'owner_id', 'type': INTEGER(), 'autoincrement': True}
+published
+story
+
+Process finished with exit code 0
