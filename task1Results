@@ -1,0 +1,5 @@
+D:\Python34\python.exe D:/web-programming/zzzeek-pycon2013_student_package-a5b84d0659cb/homework/task1.py
+[(1, 'dilbert')]
+[(1, 'dilbert'), (2, 'ed'), (3, 'jack'), (4, 'fred'), (5, 'wendy'), (6, 'mary')]
+
+Process finished with exit code 0
