@@ -1,0 +1,11 @@
+D:\Python34\python.exe D:/web-programming/zzzeek-pycon2013_student_package-a5b84d0659cb/task3.py
+"user".fullname = :fullname_1
+"user".fullname = :fullname_1 AND "user".id > :id_1
+"user".username = :username_1
+[4]
+[(4, 'dilbert', 'Dilbert Jones'), (8, 'dilbert', 'Dilbert Jones'), (12, 'dilbert', 'Dilbert Jones'), (3, 'wendy', 'Wendy Weathersmith'), (7, 'wendy', 'Wendy Weathersmith'), (11, 'wendy', 'Wendy Weathersmith')]
+"SELECT "user".fullname, address.email_address
+FROM "user" JOIN address ON "user".id = address.user_id
+WHERE "user".username = :username_1 ORDER BY address.email_address"
+1
+Process finished with exit code 0
